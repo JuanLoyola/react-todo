@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  /* callbacks */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  background: #0F2027;
+
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ToDo {
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 9px;
+  width: 50vw;
+  height: auto;
+  box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.5);
+  background: #f6f6f6;
+  padding-bottom: 60px;
+  margin: 40px auto;
+}
+
+.ToDo-Header {
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 70px auto 30px;
+}
+
+.input {
+  width: 60%;
+  padding: 10px;
+  font-size: 1em;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid lightblue;
+  border-color: lightblue;
+  box-shadow: 1px 3px 10px 0px rgba(134, 53, 53, 0.3);
+}
+
+
+.ToDo-Add {
+  color: white;
+  font-size: 1em;
+  text-transform: uppercase;
+  width: 250px;
+  height: 40px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #2fa6dd;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 1px #333;
+  margin: 20px auto 0;
+  transition: linear 0.2s;
+}
+
+.ToDo-Add:hover {
+  background: #58b5e0;
+  box-shadow: none;
+  margin-left: calc(auto + 1px);
+}
+
+.ToDo-Container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.content {
+  font-size: 0.7rem;
+  color: #7c7b7b;
+  margin-top: 20px;
+}
+
+.link {
+  color: #eb5814;
+  font-weight: 600;
+}
+
+@media (max-width: 780px){
+  .ToDo {
+    width: 300px;
+    height: auto;
+  }
+  .ToDo-Container {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

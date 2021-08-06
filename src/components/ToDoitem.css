@@ -1,0 +1,66 @@
+.container {
+  width: 770px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  text-transform: capitalize;
+}
+
+.TodoItem {
+  min-width: 480px;
+  max-width: 480px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ToDoItem-text {
+  width: 250px;
+  max-width: 250px;
+  overflow: hidden;
+  text-align: start;
+  background-color: white;
+  border: 1px solid lightgrey;
+  border-radius: 9px;
+  box-shadow: 1px 1px 3px lightgrey;
+  padding: 10px 0 10px 20px;
+  margin-right: 10px;
+}
+
+.ToDoItem-Delete {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: #f74e4e;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px #333;
+  color: white;
+  font-size: 18px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: linear 0.3s;
+}
+
+.ToDoItem-Delete:hover {
+  background: #f38b8b;
+  box-shadow: none;
+  margin-top: 1px;
+  margin-left: 1px;
+}
+
+@media (max-width: 780px){
+  .container {
+    width: 300px;
+    height: auto;
+  }
+
+  .TodoItem {
+    min-width: 280px;
+    max-width: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
