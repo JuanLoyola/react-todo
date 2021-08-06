@@ -8,7 +8,7 @@
 ```
 
 ## Live 
-<a href="#" target="_blank">HERE</a>
+<a href="https://react-todojuan.netlify.app/" target="_blank">HERE</a>
 
 # Desktop preview:
 
